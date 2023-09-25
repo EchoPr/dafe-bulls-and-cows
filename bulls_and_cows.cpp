@@ -57,10 +57,12 @@ try{
             else if (count(guess, guess[i]) == 1)
                 cows++;
 
-        }while(bulls != 4)
+        }
 
-        std::cout << bulls << " bull(s) and " << cows << " cows" << endl;
-    }
+        std::cout << bulls << " bull(s) and " << cows << " cows" << std::endl;
+    }while(bulls != 4);
+
+    
 }
 
 catch (std::exception& e){
